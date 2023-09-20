@@ -1931,11 +1931,14 @@ progress {
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
 }
-
 @media (max-width: 575.98px) {
   .table-responsive-sm {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
+  }
+  
+  .fs-5{
+    font-size: 1 rem ;
   }
 }
 @media (max-width: 767.98px) {
@@ -7927,9 +7930,8 @@ textarea.form-control-lg {
 .fs-4 {
   font-size: calc(1.275rem + 0.3vw) !important;
 }
-
 .fs-5 {
-  font-size: 1.25rem !important;
+  font-size: 1.25rem ;
 }
 
 .fs-6 {
@@ -8301,6 +8303,7 @@ textarea.form-control-lg {
 }
 
 @media (min-width: 576px) {
+
   .float-sm-start {
     float: left !important;
   }
@@ -8797,6 +8800,9 @@ textarea.form-control-lg {
   }
 }
 @media (min-width: 768px) {
+  .fs-5 {
+    font-size: 1.5 rem !important;
+  }
   .float-md-start {
     float: left !important;
   }
